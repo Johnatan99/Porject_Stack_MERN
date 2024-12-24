@@ -27,8 +27,8 @@ app.use("/api/v1/post", require("./routes/postRoutes"))
 //Home
 app.get("/", (req,res)=>{
     res.status(200).send({
-        "success": true,
-        "msg":"Servirdor Node rodando"
+        success: true,
+        msg:"Servirdor Node rodando"
 
 //PORT
 const PORT = process.env.PORT || 8085
